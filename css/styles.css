@@ -269,17 +269,6 @@ h2 {
   --switch: linear-gradient(to right, #4796d2 0%, #37ce8f 100%);
 }
 
-.is-light-mode {
-  --gray: #5f616d;
-  --cardGray: #f0f3fa;
-  --lightGray: #f8f9fe;
-  --cardTitle: #6f717e;
-  --baseBackground: white;
-  --baseColor: #1d2029;
-  --switchSpinner: white;
-  --switch: #5f616d;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --cardGray: #252b43;
