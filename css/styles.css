@@ -40,6 +40,7 @@ body {
 }
 .checkbox:checked ~ .switch:before{
   transform: translateX(0);
+  
 }
 .switch {
   /* border: 1px solid red; */
@@ -52,6 +53,7 @@ body {
   box-sizing: border-box;
   cursor: pointer;
   user-select: none;
+  
 }
 .switch::before {
   content: "";
@@ -89,6 +91,11 @@ h1 {
   margin-top: -50px;
   margin-bottom: 3em;
 }
+/*article */
+article a {
+  text-decoration: none;
+}
+
 /* card  */
 .card {
   border-radius: 8px;
@@ -267,6 +274,8 @@ h2 {
   --cardTitle: #8088ad;
   --switchSpinner: #282943;
   --switch: linear-gradient(to right, #4796d2 0%, #37ce8f 100%);
+   transition: all .4s;
+
 }
 
 .is-light-mode {
@@ -278,6 +287,8 @@ h2 {
   --baseColor: #1d2029;
   --switchSpinner: white;
   --switch: #5f616d;
+  transition: all .4s;
+  
 }
 
 @media (prefers-color-scheme: dark) {
@@ -290,5 +301,7 @@ h2 {
     --cardTitle: #8088ad;
     --switchSpinner: #282943;
     --switch: linear-gradient(to right, #4796d2 0%, #37ce8f 100%);
+    transition: all 4s;
+
   }
 }
